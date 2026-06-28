@@ -1,12 +1,14 @@
-# Hi, I'm Indra
+# Hi, I'm Indra Zulfi Mushoddaq
 
-I build AI systems, developer tools, and product infrastructure that are meant to be used in real applications, not just demos. My work is focused on making AI workflows easier to compose, inspect, operate, and ship with the rest of a production codebase.
+I build production AI systems, agent runtimes, and developer infrastructure that are meant to be used in real applications, not just demos. My work is focused on making AI workflows easier to compose, inspect, operate, and ship with the rest of a production codebase.
 
 Right now my public work is centered around three connected areas:
 
 - AI application runtimes and agent workflows
 - Local code intelligence for humans and AI agents
 - Model access infrastructure for teams
+
+I'm open for collaboration around production AI systems, developer tools, and backend platforms for AI-native products.
 
 ## Featured Work
 
@@ -25,14 +27,11 @@ I like building systems that make complex software feel easier to reason about:
 - Operational visibility for AI systems, including tracing, request history, cost, latency, and failure modes
 - Practical abstractions that fit into existing applications instead of forcing a full rewrite
 
-## Current Public Repositories
+## Currently
 
-- [anvia](https://github.com/indrazm/anvia) - TypeScript runtime for AI agents, workflows, retrieval, structured extraction, and observability.
-- [lexa](https://github.com/indrazm/lexa) - Rust-powered local code intelligence for search, context, dependency tracing, and MCP clients.
-- [mux](https://github.com/indrazm/mux) - OpenAI-compatible gateway for controlled team access to multiple model providers.
-- [ai-discord-bot](https://github.com/indrazm/ai-discord-bot) - AI Discord assistant built with OpenAI Agents.
-- [openai-sdks-guide](https://github.com/indrazm/openai-sdks-guide) - Notes and examples around OpenAI SDK usage.
-- [monorepo-template](https://github.com/indrazm/monorepo-template) - A starting point for structured multi-package development.
+- AI Engineering Lead at AlphaX, working on production AI systems and decision-support tooling.
+- Founder and mentor at Devscale Indonesia.
+- Writing about AI engineering, API design, software architecture, and infrastructure at [indrazm.com](https://indrazm.com).
 
 ## Stack
 
@@ -40,5 +39,8 @@ I work mostly with TypeScript, Rust, Python, React, Node.js, FastAPI, Postgres, 
 
 ## Find Me
 
+- Website: [indrazm.com](https://indrazm.com)
 - GitHub: [@indrazm](https://github.com/indrazm)
+- X: [@indrazm](https://x.com/indrazm)
+- Email: [me@indrazm.com](mailto:me@indrazm.com)
 - Featured projects: [Anvia](https://github.com/indrazm/anvia), [Lexa](https://github.com/indrazm/lexa), [Mux](https://github.com/indrazm/mux)
