@@ -52,8 +52,13 @@ I love engineering at the level where individual pieces become dependable system
 
 I care about systems that remain understandable as they scale: strong boundaries, deliberate tradeoffs, graceful failure modes, and thoughtful tools for the people who operate them. Much of my work lives where AI infrastructure, platform engineering, developer experience, and system design meet.
 
-## Elsewhere
+## Experience
 
-AI Engineering Lead at AlphaX · Founder and mentor at Devscale Indonesia
+- 🇯🇵 **AI Engineering Lead at AlphaX, Japan** — Building AI systems for hedge funds and individual investors.
+- 🇨🇦 **Former Generalist & Software Engineer at Designstripe, Canada** — Bridged WebGL, 3D, and software engineering to turn creative ideas into production tools.
+- 🇧🇭 **Former Design Team Member at SSH International, Bahrain** — Worked at the intersection of design thinking and multidisciplinary collaboration.
+- 🇮🇩 **Educator at Devscale, Indonesia** — Helping more than 600 students grow as software engineers.
+
+## Find me
 
 [indrazm.com](https://indrazm.com) · [X](https://x.com/indrazm) · [Email](mailto:me@indrazm.com)
