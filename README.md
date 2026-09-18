@@ -1,46 +1,39 @@
 # Hi, I'm Indra Zulfi Mushoddaq
 
-I build production AI systems, agent runtimes, and developer infrastructure that are meant to be used in real applications, not just demos. My work is focused on making AI workflows easier to compose, inspect, operate, and ship with the rest of a production codebase.
+I build [Anvia](https://anvia.dev) — an open-source TypeScript stack for production agents. It gives teams composable runtimes, models, memory, retrieval, tools, UI, and observability without taking ownership of their infrastructure or data.
 
-Right now my public work is centered around three connected areas:
+[Website](https://anvia.dev) · [Documentation](https://docs.anvia.dev) · [GitHub](https://github.com/indrazm/anvia) · [npm](https://www.npmjs.com/org/anvia)
 
-- AI application runtimes and agent workflows
-- Local code intelligence for humans and AI agents
-- Model access infrastructure for teams
+## Anvia packages
 
-I'm open for collaboration around production AI systems, developer tools, and backend platforms for AI-native products.
+41 focused packages. Start with `@anvia/core`, add a model provider, then install only the capabilities your application needs.
 
-## Featured Work
+| Area | Packages |
+| --- | --- |
+| Runtime | [`@anvia/core`](https://docs.anvia.dev/packages/core) · [`@anvia/client`](https://docs.anvia.dev/packages/client) · [`@anvia/mcp`](https://docs.anvia.dev/packages/mcp) · [`@anvia/server`](https://docs.anvia.dev/packages/server) · [`@anvia/react`](https://docs.anvia.dev/packages/react) · [`@anvia/react-ui`](https://docs.anvia.dev/packages/react-ui) · [`@anvia/cli`](https://docs.anvia.dev/packages/cli) · [`@anvia/browser`](https://docs.anvia.dev/packages/browser) · [`@anvia/sandbox`](https://docs.anvia.dev/packages/sandbox) |
+| Models | [`@anvia/openai`](https://docs.anvia.dev/packages/openai) · [`@anvia/anthropic`](https://docs.anvia.dev/packages/anthropic) · [`@anvia/gemini`](https://docs.anvia.dev/packages/gemini) · [`@anvia/mistral`](https://docs.anvia.dev/packages/mistral) · [`@anvia/grok`](https://docs.anvia.dev/packages/grok) |
+| Memory | [`@anvia/memory-sqlite`](https://docs.anvia.dev/packages/memory-sqlite) · [`@anvia/memory-postgres`](https://docs.anvia.dev/packages/memory-postgres) · [`@anvia/memory-drizzle`](https://docs.anvia.dev/packages/memory-drizzle) · [`@anvia/memory-prisma`](https://docs.anvia.dev/packages/memory-prisma) |
+| Embeddings | [`@anvia/transformers`](https://docs.anvia.dev/packages/transformers) · [`@anvia/fastembed`](https://docs.anvia.dev/packages/fastembed) |
+| Vector stores | [`@anvia/qdrant`](https://docs.anvia.dev/packages/qdrant) · [`@anvia/pinecone`](https://docs.anvia.dev/packages/pinecone) · [`@anvia/pgvector`](https://docs.anvia.dev/packages/pgvector) · [`@anvia/redis`](https://docs.anvia.dev/packages/redis) · [`@anvia/chroma`](https://docs.anvia.dev/packages/chroma) · [`@anvia/lancedb`](https://docs.anvia.dev/packages/lancedb) · [`@anvia/milvus`](https://docs.anvia.dev/packages/milvus) · [`@anvia/weaviate`](https://docs.anvia.dev/packages/weaviate) |
+| Knowledge graphs | [`@anvia/graph`](https://docs.anvia.dev/packages/graph) · [`@anvia/neo4j`](https://docs.anvia.dev/packages/neo4j) · [`@anvia/memgraph`](https://docs.anvia.dev/packages/memgraph) |
+| Operations | [`@anvia/studio`](https://docs.anvia.dev/packages/studio) · [`@anvia/logger`](https://docs.anvia.dev/packages/logger) · [`@anvia/otel`](https://docs.anvia.dev/packages/otel) · [`@anvia/lens`](https://docs.anvia.dev/packages/lens) · [`@anvia/langfuse`](https://docs.anvia.dev/packages/langfuse) |
+| Channels | [`@anvia/channel`](https://anvia.dev/channels) · [`@anvia/channel-agent`](https://anvia.dev/channels) · [`@anvia/discord`](https://anvia.dev/channels) · [`@anvia/slack`](https://anvia.dev/channels) · [`@anvia/telegram`](https://anvia.dev/channels) |
 
-| Project | What it does | Why it matters |
-| --- | --- | --- |
-| [Anvia](https://github.com/indrazm/anvia) | A TypeScript runtime for provider-agnostic agents, tools, structured extraction, retrieval, pipelines, and observability. | Gives teams typed AI workflow primitives without locking application logic into one model provider or one orchestration style. |
-| [Lexa](https://github.com/indrazm/lexa) | A fast local code intelligence engine that turns a codebase into a portable, queryable graph for search, context, dependency tracing, and agent tooling. | Helps developers and AI agents work from a stable view of a project instead of repeatedly scanning files from scratch. |
-| [Mux](https://github.com/indrazm/mux) | A self-hosted OpenAI-compatible gateway for the models a team is allowed to use, with provider keys, model catalog control, API keys, request logs, usage, latency, token volume, and estimated cost. | Centralizes model access so product teams can use one API surface while platform teams keep provider credentials, policy, and observability in one place. |
+## Anvia Lens
 
-## What I Care About
+[Anvia Lens](https://anvia.dev/lens) is self-hosted observability and evaluation for production AI systems. It connects agent, model, and tool traces with releases, datasets, evaluations, latency, usage, and errors—while keeping infrastructure and capture policy under your control.
 
-I like building systems that make complex software feel easier to reason about:
+[Explore Lens](https://anvia.dev/lens) · [Read the documentation](https://docs.anvia.dev/packages/lens)
 
-- Clear boundaries between product code, model providers, tools, data, and side effects
-- Strong developer experience through typed APIs, CLIs, local tooling, and useful docs
-- Operational visibility for AI systems, including tracing, request history, cost, latency, and failure modes
-- Practical abstractions that fit into existing applications instead of forcing a full rewrite
+## What I work on
 
-## Currently
+- Provider-neutral agent runtimes and typed tool execution
+- Memory, retrieval, knowledge graphs, and local embeddings
+- Human-in-the-loop workflows, browser automation, and messaging channels
+- Developer tooling, tracing, evaluation, and production observability
 
-- AI Engineering Lead at AlphaX, working on production AI systems and decision-support tooling.
-- Founder and mentor at Devscale Indonesia.
-- Writing about AI engineering, API design, software architecture, and infrastructure at [indrazm.com](https://indrazm.com).
+## Elsewhere
 
-## Stack
+AI Engineering Lead at AlphaX · Founder and mentor at Devscale Indonesia
 
-I work mostly with TypeScript, Rust, Python, React, Node.js, FastAPI, Postgres, Redis, Docker, and OpenAI-compatible APIs. I care about clean APIs, local-first development loops, and infrastructure that stays understandable as projects grow.
-
-## Find Me
-
-- Website: [indrazm.com](https://indrazm.com)
-- GitHub: [@indrazm](https://github.com/indrazm)
-- X: [@indrazm](https://x.com/indrazm)
-- Email: [me@indrazm.com](mailto:me@indrazm.com)
-- Featured projects: [Anvia](https://github.com/indrazm/anvia), [Lexa](https://github.com/indrazm/lexa), [Mux](https://github.com/indrazm/mux)
+[indrazm.com](https://indrazm.com) · [X](https://x.com/indrazm) · [Email](mailto:me@indrazm.com)
