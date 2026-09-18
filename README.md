@@ -48,10 +48,9 @@ I build [Anvia](https://anvia.dev) — an open-source TypeScript stack for produ
 
 ## What I work on
 
-- Provider-neutral agent runtimes and typed tool execution
-- Memory, retrieval, knowledge graphs, and local embeddings
-- Human-in-the-loop workflows, browser automation, and messaging channels
-- Developer tooling, tracing, evaluation, and production observability
+I love engineering at the level where individual pieces become dependable systems—shaping clear architectures, designing distributed systems, and building observable software that can explain what it is doing in production.
+
+I care about systems that remain understandable as they scale: strong boundaries, deliberate tradeoffs, graceful failure modes, and thoughtful tools for the people who operate them. Much of my work lives where AI infrastructure, platform engineering, developer experience, and system design meet.
 
 ## Elsewhere
 
